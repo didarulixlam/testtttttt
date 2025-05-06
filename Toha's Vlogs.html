@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syndicate19 - Toha's Vlogs</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #f43f5e, #f97316);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.2s ease-in-out;
+    }
+    nav a:hover {
+      transform: scale(1.1);
+      text-decoration: underline;
+    }
+    main {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 1s ease-in-out;
+    }
+    h2 {
+      color: #f43f5e;
+      border-bottom: 2px solid #f43f5e;
+      padding-bottom: 5px;
+    }
+    .video-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    Video {
+      width: 100%;
+      max-width: 480px;
+      height: 270px;
+      border: none;
+      border-radius: 8px;
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+      iframe {
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <h1>Syndicate19</h1>
+    <nav>
+      <ul>
+        <li><a href="New Design.html">The Syndicate</a></li>
+        <li><a href="Syndicate Members.html">Members</a></li>
+        <li><a href="Memories.html">Memories</a></li>
+        <li><a href="Highlights.html">Highlights</a></li>
+        <li><a href="Videos.html">Videos</a></li>
+        <li><a href="Photos.html">Photos</a></li>
+        <li><a href="Toha's Vlogs.html">Toha's Vlogs</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Toha's Vlogs</h2>
+    <div class="video-container">
+      <video controls src= "WhatsApp Video 2025-05-06 at 22.50.32_ab49dc28.mp4"></video>
+      
+    </div>
+  </main>
+</body>
+</html>
